@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Standard">
+      <UniqueIdentifier>{7a40f6d0-7abb-4bbc-aedc-e6d3aed37d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\App">
+      <UniqueIdentifier>{a1bd37bf-e2fd-42f3-b21d-b75377abe9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Etc">
+      <UniqueIdentifier>{a8eb7ce7-7e8a-4906-926b-40fbaab027a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFrame">
+      <UniqueIdentifier>{6b5aa845-a719-40c3-89c0-38ffc041a02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sub">
+      <UniqueIdentifier>{8b17ab73-a3ba-4859-81ab-71fa32ba15dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sub\Dlg">
+      <UniqueIdentifier>{248ec366-3107-466f-82c5-de65ea347017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sub\View">
+      <UniqueIdentifier>{a5ae1662-5180-4def-a76c-06530cd9213d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolScene">
+      <UniqueIdentifier>{9ce32b55-7605-42e9-aaa7-26b38e76d36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{c1d170ef-1ae3-4801-ad98-d8d1a3528fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Wnd">
+      <UniqueIdentifier>{e35db804-fa1c-48b5-b643-1a112886cc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sub\Dlg\Dynamic">
+      <UniqueIdentifier>{b69895fe-a9dd-41c7-b2f6-0f7921f6c763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDTool.h">
+      <Filter>Standard\App</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>Standard\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Standard\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Standard\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="FixSpWnd.h">
+      <Filter>Standard\Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlView.h">
+      <Filter>Sub\View</Filter>
+    </ClInclude>
+    <ClInclude Include="EditView.h">
+      <Filter>Sub\View</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameView.h">
+      <Filter>Sub\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>Sub\View</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDlg.h">
+      <Filter>Sub\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolCoreBuilder.h">
+      <Filter>ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolMainScene.h">
+      <Filter>ToolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDToolGlobal.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlDlg.h">
+      <Filter>Sub\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDlg.h">
+      <Filter>Sub\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneListDlg.h">
+      <Filter>Sub\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="LightDlg.h">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialDlg.h">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDlg.h">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviDlg.h">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="FogDlg.h">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDTool.cpp">
+      <Filter>Standard\App</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>Standard\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Standard\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="FixSpWnd.cpp">
+      <Filter>Standard\Wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlView.cpp">
+      <Filter>Sub\View</Filter>
+    </ClCompile>
+    <ClCompile Include="EditView.cpp">
+      <Filter>Sub\View</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameView.cpp">
+      <Filter>Sub\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ListView.cpp">
+      <Filter>Sub\View</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDlg.cpp">
+      <Filter>Sub\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolCoreBuilder.cpp">
+      <Filter>ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolMainScene.cpp">
+      <Filter>ToolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDToolGlobal.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlDlg.cpp">
+      <Filter>Sub\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDlg.cpp">
+      <Filter>Sub\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneListDlg.cpp">
+      <Filter>Sub\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="LightDlg.cpp">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialDlg.cpp">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDlg.cpp">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviDlg.cpp">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="FogDlg.cpp">
+      <Filter>Sub\Dlg\Dynamic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\SSDTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SSDTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SSDTool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
