@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. Core">
+      <UniqueIdentifier>{53869706-6a55-4a0e-ab5f-6b2483c6bbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\CoreBuilder">
+      <UniqueIdentifier>{9b7befec-94ca-4986-b73b-bd5e3547485e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\SceneScript">
+      <UniqueIdentifier>{13f1d9a5-b98b-4b54-abd8-9ab29b52269d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. MainFrame">
+      <UniqueIdentifier>{4d8c75e3-a0fb-4e1c-9cb1-f4d4743733ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC">
+      <UniqueIdentifier>{c0d51b4d-5c02-4fa8-be35-bcea0b9a8505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC\Standard">
+      <UniqueIdentifier>{a605e14d-7379-4dd4-9b4e-6d857179abf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC\Standard\Header">
+      <UniqueIdentifier>{6580bd57-7d4a-4d33-b1f3-ee8af22b30e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC\Standard\Resource">
+      <UniqueIdentifier>{b683fe1e-66be-4d6b-910c-fabaefeb600c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC\Sub">
+      <UniqueIdentifier>{74a9e9ba-ee05-4045-bac4-0274e05e342e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC\Sub\View">
+      <UniqueIdentifier>{ec474c38-29a7-40a7-ac78-e2b9a5fc9068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC\Sub\SpWnd">
+      <UniqueIdentifier>{f6e84f3f-53b6-4a23-b97f-f5c99f4299a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. MFC\Sub\Dlg">
+      <UniqueIdentifier>{12d833e0-85b8-4cf8-aa2a-1975bc622e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Global">
+      <UniqueIdentifier>{f57b0d57-f82b-4d87-b3b6-5efc3578dd8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildView.h">
+      <Filter>03. MFC\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDServerEditor.h">
+      <Filter>03. MFC\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>03. MFC\Standard\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>03. MFC\Standard\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="FixSpWnd.h">
+      <Filter>03. MFC\Sub\SpWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBuilder.h">
+      <Filter>01. Core\CoreBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerScene.h">
+      <Filter>01. Core\SceneScript</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameView.h">
+      <Filter>03. MFC\Sub\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerTabView.h">
+      <Filter>03. MFC\Sub\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlView.h">
+      <Filter>03. MFC\Sub\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlDlg.h">
+      <Filter>03. MFC\Sub\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="RootDlg.h">
+      <Filter>03. MFC\Sub\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>03. MFC\Standard\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDlg.h">
+      <Filter>03. MFC\Sub\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalServerViewer.h">
+      <Filter>04. Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>03. MFC\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDServerEditor.cpp">
+      <Filter>03. MFC\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>03. MFC\Standard\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="FixSpWnd.cpp">
+      <Filter>03. MFC\Sub\SpWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBuilder.cpp">
+      <Filter>01. Core\CoreBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerScene.cpp">
+      <Filter>01. Core\SceneScript</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameView.cpp">
+      <Filter>03. MFC\Sub\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerTabView.cpp">
+      <Filter>03. MFC\Sub\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlView.cpp">
+      <Filter>03. MFC\Sub\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlDlg.cpp">
+      <Filter>03. MFC\Sub\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="RootDlg.cpp">
+      <Filter>03. MFC\Sub\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketDlg.cpp">
+      <Filter>03. MFC\Sub\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalServerViewer.cpp">
+      <Filter>04. Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SSDServerEditor.rc2">
+      <Filter>03. MFC\Standard\Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SSDServerEditor.ico">
+      <Filter>03. MFC\Standard\Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SSDServerEditor.rc">
+      <Filter>03. MFC\Standard\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

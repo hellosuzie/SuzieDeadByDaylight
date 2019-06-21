@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{392c5afd-303a-4d3b-896f-d50c7ecce1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{f724fce2-0cc9-4c2d-83ff-8785049dde20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{3c2c6fd6-7dd1-410f-8156-8f777cd55da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{e6893378-eaff-494c-8ea0-004d22461bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\01. ServerMgr">
+      <UniqueIdentifier>{9bf011f4-8272-4f4e-bb5e-0c2999867875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\02. ConnectMgr">
+      <UniqueIdentifier>{c16f656d-3217-4e43-a7a2-eec58a5d875b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\ServerObject">
+      <UniqueIdentifier>{eee19a84-1c19-49ee-8b26-05943072386c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SSDServerCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerMacro.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerObject.h">
+      <Filter>Header\ServerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkClient.h">
+      <Filter>Header\ServerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDConsole.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHeader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncContainer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManager.h">
+      <Filter>Manager\01. ServerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnectMgr.h">
+      <Filter>Manager\02. ConnectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDLog.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerThread.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMaker.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SSDServerCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerObject.cpp">
+      <Filter>Header\ServerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkClient.cpp">
+      <Filter>Header\ServerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDConsole.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncContainer.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManager.cpp">
+      <Filter>Manager\01. ServerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnectMgr.cpp">
+      <Filter>Manager\02. ConnectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDLog.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerThread.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMaker.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

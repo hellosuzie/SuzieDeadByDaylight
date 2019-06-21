@@ -1,0 +1,13 @@
+﻿  Non - Modification Unity Cpp File : Engine_Unity.cpp
+  Non - Modification Unity Cpp File : MiddleWare_Unity.cpp
+  Non - Modification Unity Cpp File : DeadByDaylight_Unity.cpp
+  Non - Modification Unity Cpp File : ServerEngine_Unity.cpp
+  Complete Make Unity Cpp File
+  ServerEngine_Unity.cpp
+  MiddleWare_Unity.cpp
+  Engine_Unity.cpp
+  DeadByDaylight_Unity.cpp
+c:\users\wws19\desktop\ssd(2)\deadbydaylight_client\deadbydaylightbuilder.cpp(105): warning C4800: 'WPARAM': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+  코드를 생성하고 있습니다...
+  DeadByDaylight.vcxproj -> C:\Users\wws19\Desktop\SSD(2)\DeadByDaylight\..\BIN\DeadByDaylight.exe
+  DeadByDaylight.vcxproj -> ..\BIN\DeadByDaylight.pdb (Full PDB)

@@ -1,0 +1,28 @@
+#pragma once
+#include <Scene.h>
+
+class CTestScene : public CSceneScript
+{
+	SPTR<class CDXFont>							m_DebugFont;
+	SPTR<class CSkeletalFbxRenderer>			m_AnimRen;
+	SPTR<class CLight>							m_Light;
+
+	SPTR<CActor>								LightActor;
+	SPTR<class CBloomFilter>					TempBloom;
+
+public:
+	const bool Loading() override;
+	void DebugRender()override;
+
+	void TestFunc(void* _Para);
+	void TestFunc2(void* _Para);
+
+	void PreUpdate(const float& _DeltaTime);
+	void PostUpdate(const float& _DeltaTime);
+	void LastUpdate(const float& _DeltaTime);
+
+public:
+	CTestScene(CScene* _PairScene);
+	~CTestScene();
+};
+

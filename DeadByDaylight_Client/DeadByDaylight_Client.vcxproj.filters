@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CoreBuilder">
+      <UniqueIdentifier>{d8d6430f-b449-4aad-b790-5dba93f22fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{3439f41c-2600-45f0-86c9-fa0c9ecffd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{5b484350-74f4-4782-ab7a-613902c70cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PreScene">
+      <UniqueIdentifier>{f0d38461-4087-4013-97dc-acc07ffc5c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{00b83ed3-9fb2-4394-a104-26422d742787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Global">
+      <UniqueIdentifier>{de0de365-26ed-4e77-925f-dca78474d651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Survivor">
+      <UniqueIdentifier>{c962eaf4-a03d-4705-8bec-9de9974f7af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Killer">
+      <UniqueIdentifier>{202c9c18-1b6c-469d-ad82-9c4fd9a32f2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>PreScene</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadByDaylightBuilder.cpp">
+      <Filter>CoreBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>PreScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>PreScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>Scene\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="KillerLobbyScene.cpp">
+      <Filter>Scene\Killer</Filter>
+    </ClCompile>
+    <ClCompile Include="SurvivorLobbyScene.cpp">
+      <Filter>Scene\Survivor</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPlayScene.cpp">
+      <Filter>Scene\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Scene\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="SurvivorVictoryScene.cpp">
+      <Filter>Scene\Survivor</Filter>
+    </ClCompile>
+    <ClCompile Include="KillerVictoryScene.cpp">
+      <Filter>Scene\Killer</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomSelectScene.cpp">
+      <Filter>Scene\Survivor</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoadingScene.cpp">
+      <Filter>Scene\Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>PreScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PreHeader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadByDaylightBuilder.h">
+      <Filter>CoreBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>PreScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>PreScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>Scene\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="KillerLobbyScene.h">
+      <Filter>Scene\Killer</Filter>
+    </ClInclude>
+    <ClInclude Include="SurvivorLobbyScene.h">
+      <Filter>Scene\Survivor</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPlayScene.h">
+      <Filter>Scene\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>Scene\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="SurvivorVictoryScene.h">
+      <Filter>Scene\Survivor</Filter>
+    </ClInclude>
+    <ClInclude Include="KillerVictoryScene.h">
+      <Filter>Scene\Killer</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomSelectScene.h">
+      <Filter>Scene\Survivor</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoadingScene.h">
+      <Filter>Scene\Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

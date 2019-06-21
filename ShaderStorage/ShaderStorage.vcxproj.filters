@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="HLSL\2D">
+      <UniqueIdentifier>{aaf40646-b199-4e3b-96ce-0e6a7ea25677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3D">
+      <UniqueIdentifier>{c12edbe0-d91f-4339-a9bb-45d23efc57e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Global">
+      <UniqueIdentifier>{e938b5ed-464b-43c9-beac-259404fd60ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3D\Base">
+      <UniqueIdentifier>{50d6ed70-4153-402a-9b9d-3520f92825f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3D\Deferred">
+      <UniqueIdentifier>{5e6828f2-892e-4863-9194-bbab18697e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3D\Filter">
+      <UniqueIdentifier>{4eab2561-2e06-4f83-9ea9-670eacb78047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3D\FBX">
+      <UniqueIdentifier>{28e4ada2-d0a7-496f-98d8-fd825f68af43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\BIN\Shaders\Sprite2D.fx">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Base2D.fx">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\GlobalValue.fx">
+      <Filter>HLSL\Global</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\LightGlobal.fx">
+      <Filter>HLSL\Global</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Base3D.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\ColorBase3D.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Grid.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Skybox.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\DeferredLight.fx">
+      <Filter>HLSL\3D\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\MergeCamera.fx">
+      <Filter>HLSL\3D\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\TargetView.fx">
+      <Filter>HLSL\3D\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Debug3D.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\BaseFBX.fx">
+      <Filter>HLSL\3D\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Skeletal.fx">
+      <Filter>HLSL\3D\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\DebugTarget.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\VolumeLight.fx">
+      <Filter>HLSL\3D\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Gaussian.fx">
+      <Filter>HLSL\3D\Filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Minimize.fx">
+      <Filter>HLSL\3D\Filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Bloom.fx">
+      <Filter>HLSL\3D\Filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\GaussianGlobal.fx">
+      <Filter>HLSL\Global</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\BloomMerge.fx">
+      <Filter>HLSL\3D\Filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Terrain.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Gizmo.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\WireFBX.fx">
+      <Filter>HLSL\3D\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\DebugTerrain.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\NaviArea.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\GeoTerrain.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\NaviTri.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Triangle.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\BaseFBXInst.fx">
+      <Filter>HLSL\3D\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Fog.fx">
+      <Filter>HLSL\3D\Filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Particle.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\UIBase.fx">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\UIMerge.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\SkyboxCube.fx">
+      <Filter>HLSL\3D\Base</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\ForwardBaseFBX.fx">
+      <Filter>HLSL\3D\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\DepthOfField.fx">
+      <Filter>HLSL\3D\Filter</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\DissolveSkeletal.fx">
+      <Filter>HLSL\3D\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\BIN\Shaders\Decal.fx">
+      <Filter>HLSL\3D\Deferred</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

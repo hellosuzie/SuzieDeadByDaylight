@@ -1,0 +1,46 @@
+///////////////////////////////						Light				//////////////////////////////////////// 
+
+Point Light 설정
+Light = CreateActor(UPDATE_LAYER_NORMAL, L"LightActor")->AddCom<CLight>(LIGHT_DATA{ RENDER_LAYER_PLAYER });
+Light->SetLightType(POINT_LIGHT);
+Light->SetLightRange(2000.f);
+Light->SetLightColor(Vec4::Red);
+Light->SetLightAtenuation(Vec4(2000.f, 1.f, 1.f, 0.f));
+Light->TRANS->SetPos(Vec3(1000.f, 1000.f, 0.f));
+
+
+Spot Light 설정
+Light = CreateActor(UPDATE_LAYER_NORMAL, L"LightActor")->AddCom<CLight>(LIGHT_DATA{ RENDER_LAYER_PLAYER });
+Light->SetLightType(SPOT_LIGHT);
+Light->SetLightRange(2000.f);
+Light->SetLightColor(Vec4::Blue);
+Light->SetLightAtenuation(Vec4(2000.f, 1.f, 1.f, 0.f));
+Light->TRANS->SetPos(Vec3(-1000.f, 1000.f, 0.f));
+Light->SetLightDir(Vec3(1.f, -1.f, 1.f));
+Light->SetSpotPower(2.f);
+
+
+
+///////////////////////////////						FilterEffect				//////////////////////////////////////// 
+가우시안 이펙트 추가 샘플
+SPTR<CCamera> MainCam = GetMainCamera();
+CGaussianBlur* Gau = MainCam->AddFilter<CGaussianBlur>();
+Gau->SetGaussianBuffer(1.f, 5);
+
+
+블룸 이팩트 추가 샘플
+
+SPTR<CCamera> MainCam = GetMainCamera();
+CBloomFilter* Bloom = MainCam->AddFilter<CBloomFilter>(MINIMIZE_BUFFER_TYPE::MINI_64);
+Bloom->SetBloomResTarget(L"Lighting", 0);
+Bloom->SetMiniBufferAmount(0.9f);
+Bloom->SetMiniBufferMultiple(0.5f);
+
+
+///////////////////////////////						FBX Mesh Renderer				//////////////////////////////////////// 
+
+TestActor = CreateActor(L"TestMeshActor", UPDATE_LAYER_NORMAL);
+SPTR<CStaticFbxRenderer> Ren = TestActor->AddCom<CStaticFbxRenderer>(RENDATA{ RENDER_LAYER_PLAYER });
+Ren->SetFbx(메쉬키);
+Ren->SettingFbxMesh(5);
+

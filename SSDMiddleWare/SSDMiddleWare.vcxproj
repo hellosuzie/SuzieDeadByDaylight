@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BloodScript.h" />
+    <ClInclude Include="CGeneratorScript.h" />
+    <ClInclude Include="ClientConnectMgr.h" />
+    <ClInclude Include="ClientLogMgr.h" />
+    <ClInclude Include="ClientReceiver.h" />
+    <ClInclude Include="ClientSender.h" />
+    <ClInclude Include="ClientSession.h" />
+    <ClInclude Include="DBDRule.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="FootPrints.h" />
+    <ClInclude Include="Hook.h" />
+    <ClInclude Include="MagicCircle.h" />
+    <ClInclude Include="NavigationObject.h" />
+    <ClInclude Include="PlayerFocusScript.h" />
+    <ClInclude Include="ServerCommendManager.h" />
+    <ClInclude Include="DBDServerManager.h" />
+    <ClInclude Include="DeadByDaylightGlobal.h" />
+    <ClInclude Include="FreeCameraScript.h" />
+    <ClInclude Include="IOCPServerMgr.h" />
+    <ClInclude Include="KillerFSM.h" />
+    <ClInclude Include="MiddleEnum.h" />
+    <ClInclude Include="MiddleMacro.h" />
+    <ClInclude Include="MiddleStruct.h" />
+    <ClInclude Include="MouseScript.h" />
+    <ClInclude Include="ServerLogManager.h" />
+    <ClInclude Include="ServerNetworkManager.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerFSM.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="SurvivorFSM.h" />
+    <ClInclude Include="TraceScript.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BloodScript.cpp" />
+    <ClCompile Include="CGeneratorScript.cpp" />
+    <ClCompile Include="ClientConnectMgr.cpp" />
+    <ClCompile Include="ClientLogMgr.cpp" />
+    <ClCompile Include="ClientReceiver.cpp" />
+    <ClCompile Include="ClientSender.cpp" />
+    <ClCompile Include="ClientSession.cpp" />
+    <ClCompile Include="DBDRule.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="FootPrints.cpp" />
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="MagicCircle.cpp" />
+    <ClCompile Include="NavigationObject.cpp" />
+    <ClCompile Include="PlayerFocusScript.cpp" />
+    <ClCompile Include="ServerCommendManager.cpp" />
+    <ClCompile Include="DBDServerManager.cpp" />
+    <ClCompile Include="DeadByDaylightGlobal.cpp" />
+    <ClCompile Include="FreeCameraScript.cpp" />
+    <ClCompile Include="IOCPServerMgr.cpp" />
+    <ClCompile Include="KillerFSM.cpp" />
+    <ClCompile Include="MiddleStruct.cpp" />
+    <ClCompile Include="MouseScript.cpp" />
+    <ClCompile Include="ServerLogManager.cpp" />
+    <ClCompile Include="ServerNetworkManager.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerFSM.cpp" />
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="SurvivorFSM.cpp" />
+    <ClCompile Include="TraceScript.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSDEngine\SSDEngine.vcxproj">
+      <Project>{7f865c1f-0b11-44f2-88a7-3bb6e8c84295}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SSDServerEngine\SSDServerEngine.vcxproj">
+      <Project>{b4217656-849d-4c4e-be76-5520f7d7fb62}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FD3D44B0-C7F4-4BC5-AD5A-05BDE5DE21E8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SSDMiddleWare</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\BIN\</OutDir>
+    <IncludePath>..\ThirdParty\FBXSDK\include;..\ThirdParty\DirectXTex-master\DirectXTex;..\ThirdParty\FW1FontWrapper-master\FW1FontWrapper\Source;..\ThirdParty\inc;..\SSDEngine;..\SSDServerEngine;..\Recast;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>..\BIN;..\ThirdParty\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\BIN\</OutDir>
+    <IncludePath>..\ThirdParty\FBXSDK\include;..\ThirdParty\DirectXTex-master\DirectXTex;..\ThirdParty\FW1FontWrapper-master\FW1FontWrapper\Source;..\ThirdParty\inc;..\SSDEngine;..\SSDServerEngine;..\Recast;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>..\BIN;..\ThirdParty\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\BIN\</OutDir>
+    <IncludePath>..\ThirdParty\FBXSDK\include;..\ThirdParty\DirectXTex-master\DirectXTex;..\ThirdParty\FW1FontWrapper-master\FW1FontWrapper\Source;..\ThirdParty\inc;..\SSDEngine;..\SSDServerEngine;..\Recast;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>..\BIN;..\ThirdParty\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+    <TargetName>$(ProjectName)Dx64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\BIN\</OutDir>
+    <IncludePath>..\ThirdParty\FBXSDK\include;..\ThirdParty\DirectXTex-master\DirectXTex;..\ThirdParty\FW1FontWrapper-master\FW1FontWrapper\Source;..\ThirdParty\inc;..\SSDEngine;..\SSDServerEngine;..\Recast;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>..\BIN;..\ThirdParty\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+    <TargetName>$(ProjectName)x64</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;X32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile>PreHeader.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>X64;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile>PreHeader.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;X32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile>PreHeader.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>X64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile>PreHeader.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

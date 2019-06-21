@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CoreBuilder">
+      <UniqueIdentifier>{2b911bef-3c39-44f4-b937-698b5ee6f30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneScript">
+      <UniqueIdentifier>{6c132101-a9c8-44fa-878e-f4e4a76d39d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PreHeader">
+      <UniqueIdentifier>{ed23bff8-5338-4522-b533-a2a33cc24200}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestCoreBuilder.cpp">
+      <Filter>CoreBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>SceneScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>SceneScript</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene2.cpp">
+      <Filter>SceneScript</Filter>
+    </ClCompile>
+    <ClCompile Include="PreHeader.cpp">
+      <Filter>PreHeader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestCoreBuilder.h">
+      <Filter>CoreBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>SceneScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="IntroScene.h">
+      <Filter>SceneScript</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene2.h">
+      <Filter>SceneScript</Filter>
+    </ClInclude>
+    <ClInclude Include="PreHeader.h">
+      <Filter>PreHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GlobalValue">
+      <UniqueIdentifier>{f67ae4a1-bef5-4f65-847e-f87cb629aad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Server">
+      <UniqueIdentifier>{bf6bf7ba-613a-40c6-8d1e-89d5ac6a9f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client">
+      <UniqueIdentifier>{ee410a85-f336-443a-a531-3900fedcd9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubCameraScript">
+      <UniqueIdentifier>{4a2ebf7f-9dfd-4e96-90dc-cee40f376525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript">
+      <UniqueIdentifier>{1a03b7d5-6a74-4c95-8331-9cf49705e86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Server\01. ServerMgr">
+      <UniqueIdentifier>{afb535b1-5466-45f7-9c48-6b94a1aab24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Server\02. Room">
+      <UniqueIdentifier>{35f857f1-b7da-4b6b-bf09-620817be9d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Server\03. ConnectMgr">
+      <UniqueIdentifier>{83821206-b0a6-436b-92b6-67a8cb563c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\Player">
+      <UniqueIdentifier>{3a061c1c-ac2a-4eef-892b-e5ee3db83a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\Player\00. Base">
+      <UniqueIdentifier>{f73312b9-6932-4137-8385-2cbce2c3a5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Header">
+      <UniqueIdentifier>{f05498f7-fb25-48a6-8173-6657cdd768e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\Player\01. PlayerFSM">
+      <UniqueIdentifier>{6a0f6317-4f3a-4445-8793-e9f99c9f0824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\Player\01. PlayerFSM\01. Survivor">
+      <UniqueIdentifier>{bc8d41e5-852b-4396-b621-9dc10445db85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\Player\02. Test">
+      <UniqueIdentifier>{934b516c-6b0d-48d3-8a61-62ea9e38ffde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\Player\01. PlayerFSM\00. Base">
+      <UniqueIdentifier>{f27fd0be-7e25-4dac-961c-c9ec7cd94fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Server\01. ServerMgr\Old">
+      <UniqueIdentifier>{73ff73f2-77ae-4b39-9dde-3b828a14a8e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Server\01. ServerMgr\New">
+      <UniqueIdentifier>{5fdfeaa5-2de9-48d6-8871-6927434392c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\NavigationObject">
+      <UniqueIdentifier>{abb83a23-0fdc-4824-8082-ff4e6a08311e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubRenderer">
+      <UniqueIdentifier>{9dd925ae-283d-42d1-b2a5-6da8f1defb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\Player\01. PlayerFSM\02. Killer">
+      <UniqueIdentifier>{4d4e042b-6711-4447-8a50-1ff6bb9e44d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Client\SubScript\MagicCircle">
+      <UniqueIdentifier>{fd0011bd-cfee-4acf-aae3-e82fa0eae03e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeadByDaylightGlobal.h">
+      <Filter>GlobalValue</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCameraScript.h">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseScript.h">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConnectMgr.h">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>01. Server\02. Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02. Client\SubScript\Player\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeneratorScript.h">
+      <Filter>02. Client\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleEnum.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleStruct.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleMacro.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSM.h">
+      <Filter>02. Client\SubScript\Player\01. PlayerFSM\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="KillerFSM.h">
+      <Filter>02. Client\SubScript\Player\01. PlayerFSM\02. Killer</Filter>
+    </ClInclude>
+    <ClInclude Include="SurvivorFSM.h">
+      <Filter>02. Client\SubScript\Player\01. PlayerFSM\01. Survivor</Filter>
+    </ClInclude>
+    <ClInclude Include="DBDServerManager.h">
+      <Filter>01. Server\01. ServerMgr\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServerMgr.h">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerCommendManager.h">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerNetworkManager.h">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerLogManager.h">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSender.h">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientReceiver.h">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientLogMgr.h">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceScript.h">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationObject.h">
+      <Filter>02. Client\SubScript\NavigationObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFocusScript.h">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicCircle.h">
+      <Filter>02. Client\SubScript\MagicCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>02. Client\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="DBDRule.h">
+      <Filter>GlobalValue</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSession.h">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FootPrints.h">
+      <Filter>02. Client\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodScript.h">
+      <Filter>02. Client\SubScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>GlobalValue</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeadByDaylightGlobal.cpp">
+      <Filter>GlobalValue</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCameraScript.cpp">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseScript.cpp">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientConnectMgr.cpp">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>01. Server\02. Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02. Client\SubScript\Player\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeneratorScript.cpp">
+      <Filter>02. Client\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleStruct.cpp">
+      <Filter>00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSM.cpp">
+      <Filter>02. Client\SubScript\Player\01. PlayerFSM\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="KillerFSM.cpp">
+      <Filter>02. Client\SubScript\Player\01. PlayerFSM\02. Killer</Filter>
+    </ClCompile>
+    <ClCompile Include="SurvivorFSM.cpp">
+      <Filter>02. Client\SubScript\Player\01. PlayerFSM\01. Survivor</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDServerManager.cpp">
+      <Filter>01. Server\01. ServerMgr\Old</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServerMgr.cpp">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerCommendManager.cpp">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerNetworkManager.cpp">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerLogManager.cpp">
+      <Filter>01. Server\01. ServerMgr\New</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientReceiver.cpp">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSender.cpp">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientLogMgr.cpp">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceScript.cpp">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationObject.cpp">
+      <Filter>02. Client\SubScript\NavigationObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFocusScript.cpp">
+      <Filter>02. Client\SubCameraScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCircle.cpp">
+      <Filter>02. Client\SubScript\MagicCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>02. Client\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDRule.cpp">
+      <Filter>GlobalValue</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSession.cpp">
+      <Filter>01. Server\03. ConnectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FootPrints.cpp">
+      <Filter>02. Client\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodScript.cpp">
+      <Filter>02. Client\SubScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>GlobalValue</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
